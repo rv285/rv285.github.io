@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+background: #555;
+font-family: Verdana, Tahoma, Arial, sans-serif;
+font-size: 12px;
+padding: 0;
+margin: 0;
+color: #333;
+line-height: 18px;
+}
+
+ p { text-indent : 10px; }
+
+
+img { border: none;}
+a { color: #0000FF; text-decoration: none; }
+a:hover { color : #000}
+
+#wrap {
+margin: 20px auto;
+width: 760px;
+}
+
+#header {
+background: #fff;
+height: 80px;
+}
+
+#header h1 { 
+color : #333;
+font-size: 29px;
+letter-spacing: -2px;
+padding: 20px 0 0 20px;
+font-weight: 100;
+font-family: Arial, Tahoma, Verdana;
+}
+#header h1 a { text-decoration: none; color : #333;}
+#header h1 a:hover { color : #333; }
+#header h2 { 
+font-family: Arial, Tahoma, Verdana;
+color : #777;
+font-size: 15px;
+padding: 0 0 0px 30px;
+font-weight: 100;
+}
+
+#navigation {
+background: #FF9817 url() no-repeat;
+height: 30px;
+line-height: 30px;
+padding-left: 10px;
+}
+
+#navigation li {
+float:left;
+list-style-type:none;
+border-right:1px solid #FFA73F;
+}
+#navigation li a {
+display:block;
+padding:0 20px;
+text-transform:uppercase;
+text-decoration:none;
+color: #f7f7f7;
+letter-spacing:2px;
+}
+#navigation li a:hover {
+background: #FFAF4C url(menuover.jpg) repeat-x;
+color:#fff;
+text-decoration:none;
+}
+
+#content { 
+background: #fff url() repeat-y;
+padding: 10px 10px;
+}
+
+#content ul {
+	margin-left: 1em;
+    margin-right: 1em;
+	padding-left: 1em;
+	text-indent:  0em;
+	}
+
+#content ol {
+	margin-left: 1em;
+    margin-right: 1em;
+	padding-left: 1em;
+	text-indent:  0em;
+	}
+
+
+#bottom { 
+background: #fff url() no-repeat; 
+height: 20px;
+}
+
+
+#left {
+float:left; 
+width:720px; 
+text-align: justify;
+padding-left: 8px;
+}
+
+#left h2 { letter-spacing: -1px; padding: 15px 0 5px 0; font-family: Arial, Tahoma, Verdana; font-weight: 600; font-size: 17px; color: #2E2EFE;}
+#left h2 a { color: #2E2EFE; }
+#left h2 a:hover { color: #000; }
+
+
+#right {
+float:right; 
+width:500px; 
+padding-right: 10px;
+padding-top: 10px;
+}
+#right h2 { letter-spacing: -1px; padding: 15px 0 5px 0; font-family: Arial, Tahoma, Verdana; font-weight: 600; font-size: 17px; color: #2E2EFE;}
+#right h2 a { color: #2E2EFE; }
+#right h2 a:hover { color: #000; }
+
+#footer {
+text-align: center;
+font-size: 10px;
+color: #fff;
+padding:0 0 10px 0;
+margin: 0;
+}
+#footer a { color: #fff; text-decoration: underline;}
+#footer a:hover { color: #000; text-decoration: none; }
