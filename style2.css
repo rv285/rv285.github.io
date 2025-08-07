@@ -20,11 +20,6 @@ img { border: none;}
 a { color: #0000FF; text-decoration: none; }
 a:hover { color : #000}
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 
 #wrap {
 margin: 20px auto;
