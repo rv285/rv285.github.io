@@ -20,6 +20,12 @@ img { border: none;}
 a { color: #0000FF; text-decoration: none; }
 a:hover { color : #000}
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 #wrap {
 margin: 20px auto;
 width: 760px;
@@ -131,3 +137,16 @@ margin: 0;
 }
 #footer a { color: #fff; text-decoration: underline;}
 #footer a:hover { color: #000; text-decoration: none; }
+
+@media screen and (max-width: 600px) {
+  /* CSS rules for screens 600px wide or less */
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+
